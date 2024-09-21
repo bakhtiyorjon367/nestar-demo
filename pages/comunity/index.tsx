@@ -1,9 +1,17 @@
+import withLayoutBasic from "@/libs/components/layout/layoutBasic";
+import { NextPage } from "next";
 import {useState} from "react";
 
-const ComunityList = () =>{
+const Comunity:NextPage = () =>{
+    const [title, setTitle] = useState<string>("hello");
     return (
-        <div onClick={()=>alert("Hello MIT")} style={{color:"white"}}>Comunity List </div>
-        )
-}
+        <div>
+            COMMUNITY{""}
+            <button onClick={()=>alert("Hello MIT")} style={{color:"white"}}>
+                PressMe
+            </button>
+        </div>
+        );
+};
 
-export default ComunityList;
+export default withLayoutBasic(Comunity);
