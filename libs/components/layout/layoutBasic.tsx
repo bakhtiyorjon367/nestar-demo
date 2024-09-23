@@ -1,5 +1,4 @@
 import { Stack } from "@mui/material"
-import { blue, brown, green } from "@mui/material/colors"
 import  Head  from "next/head"
 
 const withLayoutBasic =(Component:any)=>{
@@ -10,13 +9,13 @@ const withLayoutBasic =(Component:any)=>{
                     <title>Nestar</title>
                 </Head>
                 <Stack id="pc-wrap">
-                    <Stack sx={{background:green[300]}}>Header Basic</Stack>
+                    <Stack sx={{background:"#81c784"}}>Header Basic</Stack>
 
                     <Stack id={"main"}>
                         <Component {...props} />
                     </Stack>
 
-                    <Stack sx={{background:brown[300]}}>Footer</Stack>
+                    <Stack sx={{background:"#a1887f"}}>Footer</Stack>
                 </Stack>
             </>
         );
