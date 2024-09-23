@@ -1,12 +1,13 @@
 import withLayoutBasic from "@/libs/components/layout/layoutBasic";
+import { Stack } from "@mui/material";
 
 const PropertyList = () =>{
     return (
-        <>
-            <div>PropertyList</div>
-            {/* <Container>PROPERTY LIST</Container> */}
-        </>
-        
+            <div>
+                <Stack className={"container"}>
+                    PROPERTY LIST
+                </Stack>
+            </div>
         );
 }
 

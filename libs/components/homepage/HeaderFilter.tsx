@@ -19,13 +19,13 @@ const HeaderFilter = () => {
                     <ExpandMoreIcon/>
                 </Box>
             </Stack>
-            <Stack>
-                <Box className={"search-box-other"}>
+            <Stack className={"search-box-other"}>
+                <Box className={"advanced-filter"}>
                     <img src="/img/icons/tune.svg" alt=""/>
                     <span>Advanced</span>
                 </Box>
                 <Box className={"search-btn"}>
-                    <img src="/img/icons/serach_white.svg" alt=""/>
+                    <img src="/img/icons/search_white.svg" alt=""/>
                 </Box>               
             </Stack>            
         </Stack>
