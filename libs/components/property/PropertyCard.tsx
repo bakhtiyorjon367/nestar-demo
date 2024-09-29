@@ -35,7 +35,7 @@ const PropertyCard = () =>{
                             pathname: "/property/detail",
                             query:{id: "test123sdijfsdj"},
                           }}
-                        > <Typography>Kingstone apaprtments</Typography>
+                        > <Typography>Kingstone apartments in Seoul stationon</Typography>
                         </Link>
                     </Stack>
                     <Stack className="address">
@@ -56,7 +56,8 @@ const PropertyCard = () =>{
                         <Typography> 170 m2</Typography>
                     </Stack>
                 </Stack>
-                <Stack className="divider"></Stack>
+                <Stack className="divider">
+                </Stack>
                 <Stack className="type-buttons">
                     <Stack className="type">
                         <Typography sx={{fontWeight:500, fontSize: "13ppx"}}>Rent</Typography>
@@ -77,4 +78,4 @@ const PropertyCard = () =>{
         </Stack>
     );
 };
-export default PropertyCard;  // export default TrendPropertyCard;  // export default TrendProperty
+export default PropertyCard;  

@@ -105,7 +105,7 @@ const Filter = () => {
                         }}>4
                     </Button>
                     <Button
-                        sx={{borderRadius: "12px 0 0 12px",
+                        sx={{borderRadius: 0,
                             border: "1px solid #b9b9b9",
                         }}>5+
                     </Button>
@@ -140,7 +140,7 @@ const Filter = () => {
                         }}>4
                     </Button>
                     <Button
-                        sx={{borderRadius: "12px 0 0 12px",
+                        sx={{borderRadius: 0,
                             border: "1px solid #b9b9b9",
                         }}>5+
                     </Button>
